@@ -1,0 +1,32 @@
+:root {
+  --bg-white: #ffffff;
+  --bg-black: #000000;
+  --bg-grey1: #111111;
+  --bg-grey2: #2e2e2e;
+  --color-white: #ffffff;
+}
+.flex {
+  display: flex;
+}
+.gap-2 {
+  gap: 20px;
+}
+.gap-4 {
+  gap: 40px;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.justify-content {
+  justify-content: space-between;
+  align-items: center;
+}
+.color-white {
+  color: var(--color-white);
+}
+.bg-black {
+  background-color: var(--bg-black);
+}
+.p-2 {
+  padding: 20px;
+}
