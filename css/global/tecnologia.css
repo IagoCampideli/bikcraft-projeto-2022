@@ -1,0 +1,45 @@
+.tecnologias-shadow-top {
+  box-shadow: inset 0 80px var(--color-white), inset 0 -80px var(--color-white);
+}
+@media (max-width: 1225px) {
+  .bicicletas h2 {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 1000px) {
+  .tecnologias {
+    gap: 20px;
+  }
+  /*Uma opção para o responsivo*/
+  /* .bicicletas-container {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 280px;
+  }
+  .bicicletas-container li {
+    flex: 1;
+  } */
+}
+@media (max-width: 600px) {
+  /* .bicicletas-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  } */
+  .tecnologias {
+    padding-top: 40px;
+  }
+
+  .tecnologias-container {
+    grid-template-columns: 1fr;
+  }
+  .img-tecnologias {
+    display: none;
+  }
+  .tecnologias-article {
+    box-shadow: initial;
+  }
+  .vantagens {
+    grid-template-columns: 1fr;
+    padding-bottom: 40px;
+  }
+}
