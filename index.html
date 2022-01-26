@@ -6,31 +6,94 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bikcraft</title>
-  <link rel="stylesheet" href="./css/utilitarios.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" href="img/bikcraft.svg" type="image/svg+xml">
 </head>
 
 <body>
   <header class="bg-black">
-    <div class="header flex gap-2 justify-content wrap p-2">
+    <div class="header content-fluid flex gap-2 justify-content wrap p-2">
       <a href="./"><img src="./img/bikcraft.svg" alt="Lobo bikcraft"></a>
       <nav aria-label="primaria">
         <ul class="header-menu flex gap-4 wrap color-white">
-          <a href="./bicicletas.html">
-            <li>Bicicletas</li>
-          </a>
-          <a href="./bicicletas.html">
-            <li>Seguros</li>
-          </a>
-          <a href="./bicicletas.html">
-            <li>Contato</li>
-          </a>
+          <li><a href="./bicicletas.html">Bicicletas</a></li>
+          <li><a href="./seguros.html">Seguros</a></li>
+          <li><a href="./contato.html">Contato</a></li>
         </ul>
       </nav>
     </div>
-
   </header>
+  <main class="introducao-bg introducao-shadow bg-black">
+    <div class="introducao content-fluid py-2 color-white grid-6 gap-top-4">
+      <div class="introducao-texto align-self-end pb-12">
+        <h1 class="mb-3-2 font-64">Bicicletas feitas sob medida<span class="color-yellow2">.</span>
+        </h1>
+        <p class="mb-2 font-24 color-grey">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft</p>
+        <a class="btn-yellow" href="./bicicletas.html">Escolha a sua</a>
+      </div>
+      <div>
+        <img src="./img/fotos/introducao.jpg" alt="">
+      </div>
+
+    </div>
+
+  </main>
+  <article>
+    <div class="bicicletas content-fluid-1400 pt-6 pb-6 py-2">
+      <h2 class="font-52 mb-2 content-fluid py-2">escolha a sua<span class="color-yellow2">.</span></h2>
+      <ul class="bicicletas-container grid-4 gap-4 ">
+        <li class="bicicletas-lista">
+          <a class="block" href="./bicicletas/magic.html">
+            <img class="mb-1-6" src="./img/bicicletas/magic-home.jpg" alt="Bicicleta Preta">
+            <h3 class="font-24 mb-0-8 flex align-itens-center">Magic Might</h3>
+            <span class="color-grey2 pl-2">R$ 2999</span>
+          </a>
+
+        </li>
+        <li class="bicicletas-lista">
+          <a class="block" href="./bicicletas/nebula.html">
+            <img class="mb-1-6" src="./img/bicicletas/nebula-home.jpg" alt="Bicicleta Branca">
+            <h3 class="font-24 mb-0-8 flex align-itens-center">Nebula Cosmic</h3>
+            <span class="color-grey2 pl-2">R$ 3999</span>
+          </a>
+
+        </li>
+        <li class="bicicletas-lista">
+          <a class="block" href="./bicicletas/nimbus.html">
+            <img class="mb-1-6" src="./img/bicicletas/nimbus-home.jpg" alt="Bicicleta Carbono">
+            <h3 class="font-24 mb-0-8 flex align-itens-center">Nimbus Stark</h3>
+            <span class="color-grey2 pl-2">R$ 4999</span>
+          </a>
+
+        </li>
+      </ul>
+    </div>
+
+  </article>
+  <article class="bg-black">
+    <div class="content-fluid grid-6 gap-4 py-2">
+      <div>
+        <span class="color-white">TECNOLOGIA AVANÇADA</span>
+        <h2 class="color-white">você escolhe as suas cores e componentes<span class="color-yellow2">.</span></h2>
+        <p class="color-grey">Cada Bikcraft é única e possui sua identidade. As medidas serão exatas para o seu corpo e altura, garantindo maior conforto e ergonomia na sua pedalada. Você pode também personalizar completamente as suas cores.</p>
+        <a class="color-yellow2" href="">ESCOLHA UM MODELO</a>
+        <div class="grid-6 gap-2">
+          <div>
+            <h3 class="color-white">Motor Elétrico</h3>
+            <p class="color-grey">Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é carregada com a sua energia gasta ao pedalar.</p>
+          </div>
+          <div>
+            <h3 class="color-white">Rastreador</h3>
+            <p class="color-grey">Sabemos o quão preciosa é a sua Bikcraft, por isso adcionamos rastreadores e sistema anti-furto para garantir p seu sossego.</p>
+          </div>
+
+        </div>
+      </div>
+      <div>
+        <img src="./img/fotos//tecnologia.jpg" alt="">
+      </div>
+    </div>
+  </article>
 
 </body>
 
